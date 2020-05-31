@@ -15,4 +15,4 @@ jobs:
       - name: installing-surge
         run: npm install -g surge  
       - name: run surge
-        run: surge ./bootcamp_assigment2_daniyal_sadiq.surge.sh --token ${{ secrets.BOOTCAMP_ASSIGMENT2 }}
+        run: surge ./ bootcamp_assigment2_daniyal_sadiq.surge.sh --token ${{ secrets.BOOTCAMP_ASSIGMENT2 }}
